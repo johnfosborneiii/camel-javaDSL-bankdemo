@@ -1,0 +1,7 @@
+<transaction no="00000017" type="Cash">
+  <custid>A02</custid>
+  <vipstatus>Gold</vipstatus>
+  <detail>
+   <amount>-20</amount>
+  </detail>
+ </transaction>

@@ -1,0 +1,17 @@
+<bank name="ABC">
+ <transaction no="00000017" type="Cash">
+  <custid>A02</custid>
+  <vipstatus>Gold</vipstatus>
+  <detail>
+   <amount>-20</amount>
+  </detail>
+ </transaction>
+ <transaction no="00000018" type="Transfer">
+  <custid>A02</custid>
+  <vipstatus>Gold</vipstatus>
+  <detail>
+   <custid>A01</custid>
+   <amount type="Debit">20</amount>
+  </detail>
+ </transaction>
+</bank>
