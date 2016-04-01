@@ -176,6 +176,7 @@
         <version>2.12.0.redhat-610379</version>
         <configuration>
           <useBlueprint>true</useBlueprint>
+	  <mainClass>org.apache.camel.demos.bankdemo.bankTransactionJavaDSL</mainClass>
         </configuration>
       </plugin>
     </plugins>
