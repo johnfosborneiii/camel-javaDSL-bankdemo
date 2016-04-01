@@ -179,6 +179,14 @@
 	  <mainClass>org.apache.camel.demos.bankdemo.bankTransactionJavaDSL</mainClass>
         </configuration>
       </plugin>
+	<plugin>
+              <groupId>org.jboss.hawt.app</groupId>
+              <artifactId>hawt-app-maven-plugin</artifactId>
+              <version>1.2</version>
+              <configuration>
+                <main>org.apache.camel.demos.bankdemo.bankTransactionJavaDSL.Main</main>
+              </configuration>
+            </plugin>
     </plugins>
     
   </build>
